@@ -1,4 +1,4 @@
-// Accessibility: menu toggle handling
+
 document.addEventListener('DOMContentLoaded', function(){
   var btn = document.getElementById('menu-toggle') || document.querySelector('[aria-controls][aria-expanded]');
   if(!btn) return;
